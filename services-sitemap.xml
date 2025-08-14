@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Modélisation 3D avec Fusion 360 -->
+  <url>
+    <loc>https://www.n3d-creations.fr/services/modelisation-3d.html</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Impression 3D -->
+  <url>
+    <loc>https://www.n3d-creations.fr/services/impression-3d.html</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Création d'objets personnalisés -->
+  <url>
+    <loc>https://www.n3d-creations.fr/services/objets-personnalises.html</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Réparation et pièces de rechange -->
+  <url>
+    <loc>https://www.n3d-creations.fr/services/reparation-pieces-rechange.html</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Prototypage rapide -->
+  <url>
+    <loc>https://www.n3d-creations.fr/services/prototypage-rapide.html</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Formations Fusion 360 -->
+  <url>
+    <loc>https://www.n3d-creations.fr/services/formation-fusion-360.html</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+</urlset>

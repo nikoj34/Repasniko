@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Support de casque audio personnalisé -->
+  <url>
+    <loc>https://www.n3d-creations.fr/portfolio/support-casque.html</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.n3d-creations.fr/images/portfolio/support-casque.jpg</image:loc>
+      <image:title>Support de casque audio personnalisé</image:title>
+      <image:caption>Support mural ergonomique pour casque audio, avec intégration de logo personnalisé.</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Vase design organique -->
+  <url>
+    <loc>https://www.n3d-creations.fr/portfolio/vase-design.html</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.n3d-creations.fr/images/portfolio/vase-design.jpg</image:loc>
+      <image:title>Vase design organique</image:title>
+      <image:caption>Vase décoratif aux formes organiques, inspiré des patterns naturels.</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Fixation automobile sur mesure -->
+  <url>
+    <loc>https://www.n3d-creations.fr/portfolio/fixation-vehicule.html</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.n3d-creations.fr/images/portfolio/fixation-vehicule.jpg</image:loc>
+      <image:title>Fixation automobile sur mesure</image:title>
+      <image:caption>Pièce de remplacement pour fixation intérieure de véhicule, non disponible chez le constructeur.</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Système de rangement modulaire -->
+  <url>
+    <loc>https://www.n3d-creations.fr/portfolio/rangement-bureau.html</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.n3d-creations.fr/images/portfolio/rangement-bureau.jpg</image:loc>
+      <image:title>Système de rangement modulaire</image:title>
+      <image:caption>Organisation de bureau personnalisée avec modules connectables pour stylos, cartes et accessoires.</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Lampe design paramétrique -->
+  <url>
+    <loc>https://www.n3d-creations.fr/portfolio/lampe-design.html</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.n3d-creations.fr/images/portfolio/lampe-design.jpg</image:loc>
+      <image:title>Lampe design paramétrique</image:title>
+      <image:caption>Lampe d'ambiance avec motif paramétrique complexe, créant des jeux d'ombre uniques.</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- Joint d'étanchéité flexible -->
+  <url>
+    <loc>https://www.n3d-creations.fr/portfolio/joint-etancheite.html</loc>
+    <lastmod>2025-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.n3d-creations.fr/images/portfolio/joint-etancheite.jpg</image:loc>
+      <image:title>Joint d'étanchéité flexible</image:title>
+      <image:caption>Joint sur mesure pour équipement industriel spécifique, réalisé en matériau flexible.</image:caption>
+    </image:image>
+  </url>
+</urlset>

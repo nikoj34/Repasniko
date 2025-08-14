@@ -1,0 +1,56 @@
+# Fichier robots.txt optimisé pour N3D Créations
+# Dernière mise à jour: 13/04/2025
+# www.n3d-creations.fr
+
+# Règles globales pour tous les robots
+User-agent: *
+Allow: /
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /admin/
+Disallow: /includes/
+Disallow: /js/
+Disallow: /css/
+Disallow: /assets/
+Disallow: /*?*
+Disallow: /*.pdf$
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*.json$
+
+# Empêcher l'indexation des duplicatas
+Disallow: /*?sort=
+Disallow: /*?filter=
+Disallow: /*?page=
+Disallow: /*print=
+
+# Règles spécifiques pour Googlebot
+User-agent: Googlebot
+Allow: /*.js$
+Allow: /*.css$
+Allow: /images/
+
+# Règles pour Googlebot-Image (permet d'indexer vos créations 3D)
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /portfolio/
+
+# Règles pour Google AdsBot
+User-agent: AdsBot-Google
+Allow: /
+
+# Règles pour Bingbot
+User-agent: Bingbot
+Allow: /
+
+# Taux d'exploration recommandé (ajoute une pause entre les requêtes)
+Crawl-delay: 1
+
+# Sitemap Index principal
+Sitemap: https://www.n3d-creations.fr/sitemap.xml
+
+# Sitemaps individuels
+Sitemap: https://www.n3d-creations.fr/main-sitemap.xml
+Sitemap: https://www.n3d-creations.fr/portfolio-sitemap.xml
+Sitemap: https://www.n3d-creations.fr/services-sitemap.xml
+Sitemap: https://www.n3d-creations.fr/pages-sitemap.xml

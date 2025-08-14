@@ -1,0 +1,81 @@
+{
+  "name": "N3D Créations - Modélisation et Impression 3D",
+  "short_name": "N3D Créations",
+  "description": "Services de modélisation 3D avec Fusion 360 et impression 3D de qualité à Saint-Gély-du-Fesc",
+  "start_url": "/?source=pwa",
+  "id": "/",
+  "icons": [
+    {
+      "src": "/images/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/favicon/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/favicon/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/images/favicon/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "theme_color": "#097C9E",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "fr-FR",
+  "dir": "ltr",
+  "categories": ["business", "productivity", "shopping"],
+  "screenshots": [
+    {
+      "src": "/images/screenshots/mobile-home.jpg",
+      "sizes": "750x1334",
+      "type": "image/jpeg",
+      "platform": "narrow",
+      "label": "Page d'accueil N3D Créations sur mobile"
+    },
+    {
+      "src": "/images/screenshots/desktop-portfolio.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpeg",
+      "platform": "wide",
+      "label": "Portfolio N3D Créations sur ordinateur"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Demander un devis ou contacter N3D Créations",
+      "url": "/#contact",
+      "icons": [{ "src": "/images/icons/contact-icon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Portfolio",
+      "short_name": "Créations",
+      "description": "Voir nos créations récentes",
+      "url": "/#portfolio",
+      "icons": [{ "src": "/images/icons/portfolio-icon.png", "sizes": "96x96" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
