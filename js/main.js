@@ -16,38 +16,21 @@ document.addEventListener('DOMContentLoaded', function() {
     const portfolioFilters = document.querySelectorAll('.portfolio__filter');
     const portfolioItems = document.querySelectorAll('.portfolio-item');
     
-    // ====== NOUVELLE IMPLÉMENTATION DU MENU MOBILE ======
-    // Cette approche évite d'utiliser les classes CSS pour la transition
-    
-    // Cacher le menu au démarrage (solution directe)
-    if (navMenu) {
-        navMenu.style.transform = 'translateX(100%)';
-        navMenu.style.transition = 'transform 0.3s ease';
-    }
-    
-    // Toggle mobile navigation - NOUVELLE VERSION
+    // Toggle mobile navigation using CSS classes
     function toggleNav() {
         if (navToggle && navMenu) {
-            if (navToggle.getAttribute('aria-expanded') === 'true') {
-                // Fermer le menu
-                navMenu.style.transform = 'translateX(100%)';
-                navToggle.setAttribute('aria-expanded', 'false');
-                navToggle.classList.remove('active');
-            } else {
-                // Ouvrir le menu
-                navMenu.style.transform = 'translateX(0)';
-                navToggle.setAttribute('aria-expanded', 'true');
-                navToggle.classList.add('active');
-            }
+            const isOpen = navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active', isOpen);
+            navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
         }
     }
-    
-    // Close mobile navigation when clicking on a link - MISE À JOUR
+
+    // Close mobile navigation
     function closeNav() {
         if (navToggle && navMenu) {
-            navMenu.style.transform = 'translateX(100%)';
-            navToggle.setAttribute('aria-expanded', 'false');
+            navMenu.classList.remove('active');
             navToggle.classList.remove('active');
+            navToggle.setAttribute('aria-expanded', 'false');
         }
     }
     
